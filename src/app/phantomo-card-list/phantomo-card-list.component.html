@@ -1,0 +1,7 @@
+<mat-card class="phantomos-card-list">
+    <mat-card-content class="phantomos-card-content">
+        <app-phantomo-card *ngFor="let phantomo of phantomos" [name]="phantomo.name" [message]="phantomo.message"
+            [phantomo]="phantomoImage(phantomo.phantomo)" [graveType]="phantomo.graveType"></app-phantomo-card>
+        <!-- <app-phantomo-card [name]="'Nox'" [message]="'click me!'" [graveType]="1" [phantomo]="phantomoImage('NoxPhantomo.png')"></app-phantomo-card> -->
+    </mat-card-content>
+</mat-card>

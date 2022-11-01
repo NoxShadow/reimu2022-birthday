@@ -1,0 +1,71 @@
+.phantomo-card {
+    position: relative;
+    height: 678px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: default;
+    user-select: none;
+}
+
+.phantomo-card-background-1 {
+    background-image: url(../../assets/cards/card_stone1.png);
+}
+
+.phantomo-card-background-2 {
+    background-image: url(../../assets/cards/card_stone2.png);
+}
+
+.phantomo-card-background-3 {
+    background-image: url(../../assets/cards/card_stone3.png);
+}
+
+.phantomo {
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+}
+
+.phantomo-message {
+    display: block;
+    padding: 110px 0 0 85px;
+}
+
+.phantomo-message-text {
+    word-wrap: normal;
+    text-align: justify;
+    white-space: pre-line;
+    max-height: 320px;
+    max-width: 280px;
+    font-size: large;
+    padding-right: 14px;
+    line-height: 1.25em;
+    overflow-y: auto;
+}
+
+.overflow-y {
+    overflow-y: auto;
+}
+
+.phantomo-name {
+    position: absolute;
+    word-wrap: normal;
+    width: 120px;
+    height: 60px;
+    bottom: 120px;
+    left: 120px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.phantomo-name-text {
+    flex-grow: 1;
+    font-size: x-large;
+    text-align: center;
+    line-break: normal;
+    margin: 0;
+}

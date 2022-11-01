@@ -1,0 +1,47 @@
+.toolbar {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    height: fit-content;
+}
+
+.background-img {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.background {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(../assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.preview-card {
+    margin-top: 2%;
+    width: 100%;
+}
+
+.main-card {
+    margin-top: 2%;
+}
+
+.phantomos-card {
+    width: 80%;
+}
+
+.footer {
+    width: 40%;
+    height: fit-content;
+}

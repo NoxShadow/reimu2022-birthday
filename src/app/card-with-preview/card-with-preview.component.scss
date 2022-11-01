@@ -1,0 +1,57 @@
+.head-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.phantomo-container {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.phantomo-left {
+    order: 1;
+}
+
+.phantomo-right {
+    order: 3;
+}
+
+.click-img {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-preview {
+    order: 2;
+    width: 60%;
+    background-color: #5894d680;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-message {
+    height: 100%;
+    flex-shrink: 2;
+    text-align: justify;
+    margin-right: 1%;
+    line-height: 1em;
+    white-space: pre-line;
+    font-size: large;
+}
+
+.card-preview-video {
+    height: 100%;
+    max-width: 80em;
+    max-height: 60em;
+    min-width: 60em;
+    min-height: 34em;
+}

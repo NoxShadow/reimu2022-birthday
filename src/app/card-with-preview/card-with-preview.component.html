@@ -1,0 +1,38 @@
+<div class="head-container">
+
+    <span class="phantomo-container phantomo-left" (click)="clickBirthdayPhantomo()">
+        <app-phantomo-image [phantomoPath]="'assets/birthday_phantomos/HeadphonesHeartPhantomo.png'"
+            [rotateRight]="false">
+        </app-phantomo-image>
+        <img src="assets/click_me_L.png" alt="Click me" class="click-img">
+    </span>
+    <span class="phantomo-container phantomo-right" (click)="clickOctanePhantomo()">
+        <app-phantomo-image [phantomoPath]="'assets/birthday_phantomos/PHANTOMOCTANE.png'">
+        </app-phantomo-image>
+        <img src="assets/click_me_R.png" alt="Click me" class="click-img">
+    </span>
+
+    <mat-card class="card-preview">
+        <mat-card-content class="card-content">
+            <p class="card-message">Happy birthday Reimu!!!<br><br>
+                We want to thank you for making this community and giving us a place where we can be ourselves, this
+                year we
+                have so many more phantomos celebrating your birthday!<br><br>
+                Everyone came together and left a message for you on this page. We hope our words and feelings can make
+                you
+                smile and feel like this was an amazing birthday.<br><br>
+                Each phantomo is unique too, so everyone had the chance to express that by making their own little
+                phantomo
+                avatar! <br><br>
+
+                And that’s not all, this video here is a gift from the phantomos that has been in the making for quite a
+                while now, and we can finally announce it on your special day!<br></p>
+            <iframe class="card-preview-video" src="https://www.youtube.com/embed/b9GDx-N8OdM"
+                title="YouTube video player" frameborder="0">
+            </iframe>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+<app-modal #phantomosModal></app-modal>
+<app-modal #octaneModal [imageSource]="'assets/reimuxoctaneVA.jpg'"></app-modal>
