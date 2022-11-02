@@ -11,7 +11,7 @@ export class CardWithPreviewComponent implements OnInit {
   @ViewChild("octaneModal")
   public octaneModal?: ModalComponent;
 
-  @ViewChild("octaneModal")
+  @ViewChild("phantomosModal")
   public phantomosModal?: ModalComponent;
 
   constructor() { }
